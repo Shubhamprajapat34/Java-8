@@ -43,7 +43,6 @@ public class comparator1 {
        list.add(new Product(102, "Keyboard"));
          
     
-        //  Sort using a Lambda Expression (No separate class needed!)
          list.sort((p1, p2) -> p1.getName().compareTo(p2.getName()));
 
         System.out.println(list);
